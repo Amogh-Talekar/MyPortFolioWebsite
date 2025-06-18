@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Projects</a></li>
+							<li><a href="elements.html">Skills and tools</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>My Projects:<br><br></h1>
+							<h2>1. Real-World Amazon Website Scraper Using Python:</h2>
+							<span class="image main"><img src="images/il1.png" alt="" /></span>
+							<ul>
+								<li><b>Technologies Used:</b> Python, Requests, BeautifulSoup, CSV, Pandas</li>
+								<li><b>Project Overview:</b><br>
+Developed a web scraper in Python to extract real-time data from a live website. The project covers the full scraping process: sending HTTP requests, parsing dynamic HTML content, extracting targeted information, and exporting it in a structured CSV format </li>
+								<li><b>Project Highlights:</b><br>
+<ul><li>HTTP Requests & HTML Parsing
+Utilized Python's requests library to fetch web pages and BeautifulSoup to parse the HTML. Gained a deep understanding of document structure, including tag hierarchies and class identifiers</li>
+
+<li>Targeted Data Extraction
+Focused on capturing specific data points—such as product names, prices, descriptions, or ratings—by navigating the HTML tree and locating relevant elements.</li>
+
+<li>Data Cleaning & Formatting
+Transformed raw text into clean, usable data by removing HTML tags, extra whitespace, and unnecessary characters, and standardized formats for consistency.</li>
+
+<li>CSV Output Generation
+Structured the cleaned data into a tabular format and exported it to CSV, enabling easy import into data analysis tools like Pandas or Excel.</li></li></ul>
+								<li><b>Outcome:</b><br>
+This project demonstrates robust web scraping skills using Python and industry-standard libraries. It reflects the ability to automate data extraction from real websites, handle messy HTML, and deliver clean, ready-to-analyze datasets—ideal for dashboards and further insights.</li>	
+							</ul>
+							<a href="https://github.com/Amogh-Talekar/My-Projects/blob/main/Amazon%20Web%20Scraper%20Project.ipynb">Full Project Codes here</a>
+						<br></div>
+					</div>
+					<div id="main1">
+						<div class="inner">
+							<h2>2. COVID‑19 Data Exploration Using SQL:</h2>
+							<span class="image main"><img src="images/il2.png" alt="" /></span>
+							<ul>
+								<li><b>Technologies Used:</b> SQL Server, CSV files, Data Cleaning, Window Functions</li>
+								<li><b>Project Overview:</b><br>
+This project involved exploring real-world COVID‑19 data using SQL to identify patterns and extract meaningful insights. The data, sourced from OurWorldInData, included global statistics on cases, deaths, and vaccinations. The goal was to perform the entire analysis within SQL without relying on external tools, highlighting the power of SQL for data transformation and exploration.
+</li>
+								<li><b>Project Highlights:</b><br>
+<ul><li>Preparation:
+Imported two separate datasets—one for COVID‑19 cases and deaths, and another for vaccination data—into SQL Server. Structured them into clean, relational tables suitable for analysis.</li>
+
+<li>Data Cleaning and Filtering:
+Handled missing and inconsistent data, filtered out irrelevant rows (such as continent-level summaries), and ensured uniform date and country formats for reliable querying.</li>
+
+<li>Metric Calculations and Insights:
+Calculated total cases, total deaths, death rates relative to population, and infection rates. Identified countries with high case fatality rates and explored how these changed over time.</li>
+
+<li>Rolling Totals with Window Functions:
+Used SQL window functions to calculate cumulative vaccination numbers per country, enabling analysis of how quickly different regions rolled out their vaccine programs.</li>
+
+<li>Joining Datasets for Combined Analysis:
+Merged vaccination and case data to study the relationship between vaccination rates and reductions in daily new cases and deaths.</li>
+
+<li>Insight Extraction:
+Highlighted global patterns such as countries with consistent vaccination growth, those that flattened their case curves after vaccine rollouts, and others with high mortality despite high vaccination levels.</li>
+</li></ul>
+								<li><b>Outcome:</b><br>
+This project demonstrates the use of SQL for complete end-to-end data analysis. It shows proficiency in importing and cleaning large datasets, performing advanced queries, and deriving actionable insights from real-world data. It also reflects strong analytical thinking and the ability to work with complex, time-series datasets directly in SQL.
+</li>
+							</ul>
+							<a href="https://github.com/Amogh-Talekar/My-Projects/blob/main/Portfolio%20Project%20-%20Data%20Exploration%20(Covid%20DataSet).sql">Full Project Codes here</a>
+						<br><br><br><br></div>
+					</div>
+					<div id="main2">
+						<div class="inner">
+							<h2>3. MySQL Layoffs Data Cleaning & Analysis Project:</h2>
+							<span class="image main"><img src="images/il3.png" alt="" /></span>
+					        <ul>
+								<li><b>Technologies Used:</b> MySQL, SQL Queries, Data Cleaning, Joins, Window Functions</li>
+								<li><b>Project Overview:</b><br>
+Analyzed a real-world dataset containing information about global tech industry layoffs using MySQL. The dataset included details such as company names, industry types, total layoffs, dates, locations, and funding stages. The objective was to clean the raw data, uncover patterns, and understand trends in tech layoffs from a business and hiring perspective using only SQL.
+</li>
+								<li><b>Project Highlights:</b><br>
+<ul><li>Data Preparation & Cleaning:
+Imported the layoff dataset into MySQL and performed extensive data cleaning—standardizing company names, handling null values, correcting inconsistent date formats, and filtering out incomplete records.</li>
+
+<li>Exploratory SQL Analysis:
+Used SQL queries to analyze total layoffs by year, industry, and country. Explored which companies laid off the most employees and how layoffs trended over time.</li>
+
+<li>Advanced SQL Features:
+Applied window functions to rank companies by layoff count, track rolling totals over months, and identify the most affected regions. Used Common Table Expressions (CTEs) for cleaner, layered query structures.</li>
+
+<li>Joins & Aggregation:
+Joined supplemental tables to enrich the dataset (e.g., funding type or country-based breakdown) and generated aggregated summaries like average layoffs per company or industry impact percentages.
+</li></li></ul>
+								<li><b>Outcome:</b><br>
+This project provided valuable insights into the job market disruptions in the tech sector, especially post-COVID. It showcased the power of SQL in turning raw layoff data into actionable information. The analysis revealed key patterns such as which industries were hit hardest, peak layoff periods, and regional layoff trends—skills highly applicable to workforce planning, hiring strategy, and market analysis roles.
+</li>
+							</ul>
+							<a href="https://github.com/Amogh-Talekar/My-Projects">Full Project Codes here</a>
+						<br><br><br><br></div>
+					</div>
+					<div id="main3">
+						<div class="inner">
+							<h2>4. Seattle Airbnb Market Analysis & Opportunity Identification Using Tableau:</h2>
+							<span class="image main"><img src="images/il4.png" alt="" /></span>
+							<ul>
+								<li><b>Technologies Used:</b> Tableau, Excel, Kaggle (CSV Datasets), Data Visualization, EDA</li>
+								<li><b>Project Overview:</b><br>
+A data-driven exploration of Seattle’s Airbnb market using Tableau to identify the best-performing locations and property types for potential hosts. The goal was to uncover pricing trends, seasonal demand, and competitive insights to guide investment decisions.
+</li>
+								<li><b>Project Highlights:</b><br>
+
+<ul><li>Data Preparation: Cleaned and merged 2016 Airbnb listings, reviews, and calendar data from Kaggle to ensure consistency for Tableau analysis.</li>
+
+<li>Pricing by Location: Built bar charts showing average daily prices by zip code to highlight high-revenue areas.</li>
+
+<li>Geospatial Mapping: Used Tableau maps to visualize price distribution across neighborhoods.</li>
+
+<li>Seasonal Trends: Created a time-series chart to analyze weekly revenue trends and identify peak booking periods.</li>
+
+<li>Property Insights: Explored price differences by bedroom count and listing volumes to assess competition and uncover undervalued segments.</li>
+
+<li>Dashboard Design: Developed a clean, beginner-friendly interactive dashboard for intuitive insight exploration.</li></li></ul>
+								<li><b>Outcome:</b><br>
+The final Tableau dashboard provides clear, actionable insights for new Airbnb hosts. It helps identify profitable zip codes, optimal property types, and strategic timing, showcasing strong analytical and visualization skills.
+</li>
+							</ul>
+							<a href="https://github.com/Amogh-Talekar/My-Projects">Full Project Codes here</a><br><br>
+							<a href="https://public.tableau.com/views/AirBnBFullProject_17502233716820/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Visualization Here</a>
+						<br><br></div>
+					</div>
+
+				<!-- Footer -->
+									<footer id="footer">
+						<div class="inner">
+							<section>
+								<div class="inner">
+                                  <section>
+      <h2>Get in touch</h2>
+      <p>Email: <a href="mailto:amoghtalekar1999@gmail.com">amoghtalekar1999@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917829172773">+917829172773</a></p>
+    </section>
+  </div>
+  </section>
+                            <section>
+								<h2>My Socials</h2>
+								<ul class="icons">
+									<li><a href="https://github.com/Amogh-Talekar" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/amoghtalekar10" class="icon brands style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; All rights reserved</li><li>Design: <a>Amogh</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
